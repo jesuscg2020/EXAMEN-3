@@ -1,39 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Font Awesome -->
-<link
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-  rel="stylesheet"
-/>
-<!-- Google Fonts -->
-<link
-  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-  rel="stylesheet"
-/>
-<!-- MDB -->
+<!-- navbar -->
 <link
   href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css"
   rel="stylesheet"
 />
-<!-- CSS de Data Tables -->
-<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.css">
-
-
-    <title>MySQL Database</title>
-</head>
-
-<body>
-    <head>
-    <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #3498DB;">
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #3498DB;">
   <!-- Container wrapper -->
   <div class="container-fluid">
     <!-- Navbar brand -->
-    
+ 
     <button
       class="navbar-toggler"
       type="button"
@@ -55,29 +32,25 @@
     </div>
 </div>
 </nav>
-</head>
-<div class="card text-center">
-  <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-    <a href="#!">
-      <div class="mask" style="background-color: rgb(251, 251, 251)"></div>
-    </a>
-  </div>
-  
-  <div class="card-body">
-    
+<!-- /navbar -->
 
-    <style Type="text/css">
-        .content{
-                max-width: 800px;
-                margin: auto;
-        }
-        h1{
-            text-align: center;
-            padding-bottom: 30px;
-        }
-    </style>
-  <!--   ///////////////////////////////////////////////////////////////////// -->
-  <div class="content"> 
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+
+   
+</head>
+
+<body>
+   <div class="content"> 
     <h1>Tabla de Libros</h1>                    
                 <table id="course_table" class="table table-striped">  
                     <thead bgcolor="#2E86C1">
@@ -95,8 +68,7 @@
                     <button type="button" id="add_button" data-toggle="modal" data-target="#userModal" class="btn btn-primary btn-lg">Agregar Libro</button>
                 </div>
    </div>               
- </body>
- </html>
+
 
 
 <div id="userModal" class="modal fade">
@@ -125,12 +97,10 @@
         </form>
     </div>
 </div>
+</body>
 
 
-
-  <!--   ///////////////////////////////////////////////////////////////////// -->
-
-  <footer class="text-center text-white fixed-bottom" style="background-color: #3498DB;">
+<footer class="text-center text-white fixed-bottom" style="background-color: #3498DB;">
   <!-- Copyright -->
   <div class="text-center p-3" style="background-color: #3498DB;">
    © 2021 Copyright: Jesús Octavio Cruz García
@@ -138,15 +108,5 @@
   <!-- Copyright -->
 
 </footer>
-
-<script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.5.1.js"></script>
-<script
-  type="text/javascript"
-  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"></script>
-<!-- JS de Data Table -->
-<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.js"></script>
-<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
 <script src="scripts.js"> </script>
-    
-</body>
 </html>
